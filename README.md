@@ -8,7 +8,7 @@ apt update -y
 apt install wget -y
 ```
 ```
-wget -O setup "https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/setup"
+wget -O setup "https://raw.githubusercontent.com/scvps69/ip/main/setup"
 ```
 ```
 bash setup
