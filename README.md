@@ -8,7 +8,7 @@ apt update -y
 apt install wget -y
 ```
 ```
-wget -O setup "https://raw.githubusercontent.com/scvps69/ip/main/setup"
+wget -O s "https://raw.githubusercontent.com/scvps69/ip/main/setup"
 ```
 ```
 bash setup
@@ -27,7 +27,7 @@ Fitur Utama :
 
 
 
-Telegram : @senowahyu62
+Telegram : 
 
 
 
