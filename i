@@ -26,7 +26,7 @@ sysctl net.ipv4.ip_forward=1
 iptables -t nat -A PREROUTING -p tcp --dport $pgcp -j DNAT --to-destination $ptujuan
 iptables -t nat -A PREROUTING -p udp --dport $pgcp -j DNAT --to-destination $ptujuan
 sysctl -p
-ipfrwd
+ipf
 
 
 #menu2
@@ -39,7 +39,7 @@ echo "Tekan 1 Untuk ke menu Utama / Tekan Sembarang Untuk Exit"
 read kemenu
 if [ $kemenu == 1 ] 
 then
-	ipfrwd
+	ipf
 else
     exit	
 fi
@@ -55,7 +55,7 @@ iptables -t nat -D PREROUTING $hapus
 read -p "takan 1 Untuk Lanjut edit / tekan sembarang untuk exit :   " kemenu
 if [ $kemenu == 1 ] 
 then
-	ipfrwd
+	ipf
 else
     exit	
 fi
@@ -70,6 +70,6 @@ clear
 	exit
 else
 clear
-echo "taik"
-ipfrwd
+echo "bye"
+ipf
 fi
