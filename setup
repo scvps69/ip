@@ -6,8 +6,8 @@ echo "nameserver 8.8.8.8">> /etc/resolv18.conf;
 cat /etc/resolv.conf >> /etc/resolv18.conf;
 mv /etc/resolv18.conf /etc/resolv.conf;
 iptables -t nat -A POSTROUTING -j MASQUERADE;
-wget -O /usr/bin/ipfrwd "https://raw.githubusercontent.com/scvps69/ip/main/i"
-chmod +x /usr/bin/ipfrwd
+wget -O /usr/bin/ipf "https://raw.githubusercontent.com/scvps69/ip/main/i"
+chmod +x /usr/bin/ipf
 rm setup
 history -c
-ipfrwd
+ipf
