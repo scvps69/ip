@@ -1,4 +1,4 @@
-# Tool-Ip_forwarding_Ubuntu-Debian
+# IP_Ubuntu-Debian
 ![Minion](https://octodex.github.com/images/minion.png)
 __Cara Setup__
 ```
@@ -15,13 +15,12 @@ bash setup
 ```
 __Cara Pakai__
 ```
-ipfrwd
+ipf
 ```
 
 
 
 Fitur Utama :
-- Forwarding Ip, Contoh ketika request ke 35.17.18.9:878 akan diarahkan ke 104.71.89.1:443
 - Forwading UDP/TCP connection
 
 
@@ -34,5 +33,5 @@ Telegram :
 
 
 Tag:
-cara forward ip seperti fastssh
-cara forward ip nat vmess vless trojan ssh
+cara ip seperti fastssh
+cara ip nat vmess vless trojan ssh
